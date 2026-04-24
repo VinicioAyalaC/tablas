@@ -39,6 +39,7 @@ body {
     margin-bottom: 15px;
     cursor: pointer;
     transition: 0.3s;
+    text-align: center;
 }
 
 .btn-probar:hover {
@@ -105,11 +106,12 @@ tbody tr:nth-child(even) {
 }
 
 input[type="number"] {
+    text-align: center;
     width: 100%;
     padding: 12px;
     border: 2px solid #ddd;
     border-radius: 10px;
-    font-size: 16px;
+    font-size: 30px;
     outline: none;
     transition: border-color 0.3s;
 }
@@ -117,4 +119,8 @@ input[type="number"] {
 /* Efecto cuando el usuario hace clic para escribir */
 input[type="number"]:focus {
     border-color: #d60000; /* El mismo rojo de tu botón */
+}
+
+.contenedor div {
+    margin-bottom: 15px;
 }
