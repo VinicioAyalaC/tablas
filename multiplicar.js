@@ -3,9 +3,10 @@ function generarTablas(){
     contenedor.innerHTML = "<h1>PROBANDO</h1>";
 
     let contenido="";
+    let variable=5;
     
     for(let i=1; i<=10; i++){
-        contenido= contenido + "<td>"+' 3 * '+i+" </td> " + "<td> "+(3*i)+" </td>"; 
+        contenido= contenido + "<p>"+ variable+' * '+i+" = "+(variable*i)+" </p>"; 
     }
     contenedor.innerHTML = contenido;
 }
