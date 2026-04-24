@@ -89,3 +89,32 @@ tbody tr:nth-child(even) {
         padding: 10px;
     }
 }
+
+/* Estilos para la caja de texto */
+.input-group {
+    margin-bottom: 15px;
+    text-align: left; /* Alinea la etiqueta a la izquierda */
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+    font-size: 14px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+/* Efecto cuando el usuario hace clic para escribir */
+input[type="number"]:focus {
+    border-color: #d60000; /* El mismo rojo de tu botón */
+}
