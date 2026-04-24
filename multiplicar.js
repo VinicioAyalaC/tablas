@@ -6,7 +6,7 @@ function generarTablas(){
     let variable=5;
     
     for(let i=1; i<=10; i++){
-        contenido= contenido + "<p>"+ variable+' * '+i+" = "+(variable*i)+" </p>"; 
+        contenido= contenido + "<tr><td>"+ variable+' * '+i+"</td><td>"+(variable*i)+" </td><tr>"; 
     }
     contenedor.innerHTML = contenido;
 }
